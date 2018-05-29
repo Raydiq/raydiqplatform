@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Alert-page-Filter</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#">
+        <img src="img/logo.png" alt="logo">
+        </a>
+      </div>
+      <div class="main-icon">
+        <ul class="user">
+          <li><span class="envelope">
+            <img src="img/envelope.svg" alt="/">
+            </span>
+          </li>
+          <li><span class="chat-icon">
+            <img src="img/speech-bubble.svg" alt="img">
+            </span>
+          </li>
+          <li><span class="user-photo">
+            </span>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="main-nav">
+        <nav class="dws-menu">
+          <h1>
+            <img src="img/nav-logo.png" alt="navigation">
+          </h1>
+          <ul id="nav">
+            <li>
+              <a href="#" class="sub" tabindex="1"><img src="img/couple-users-silhouette.svg" alt="ing" width="15">Accounts</a><img src="images/up.gif" alt="img" />
+              <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">SenseTime</a></li>
+                <li><a href="#">HTPro</a></li>
+                <li><a href="#">DFll</a></li>
+                <li><a href="#">HTHR</a></li>
+                <li><a href="#">Not registered</a></li>
+                <li><a href="#">Blocked</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="sub" tabindex="1"><img src="img/danger.svg" alt="img" width="20">Alerts</a><img src="images/up.gif" alt="img">
+              <ul>
+                <li><a href="#">Farms</a></li>
+                <li><a href="#">Tags</a></li>
+                <li><a href="#">System</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="sub" tabindex="1"><img src="img/event.svg" alt="img" width="15">Software Version</a><img src="images/up.gif" alt="img">
+              <ul>
+                <li><a href="#">SenseTime</a></li>
+                <li><a href="#">DFll</a></li>
+                <li><a href="#">HTHR</a></li>
+                <li><a href="#">Tags</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><img src="img/clock-circular-outline.svg" alt="img" width="15">History</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-content">
+        <div class="filter">
+          <input type="text" name="search" id="search-form" value="Enter name / Key / ID">
+          <label class="visually-hidden">Search</label>
+          <button class="button-search">Search</button>
+          <button class="button-filter active">Filter</button>
+        </div>
+        <div class="filter-block">
+          <select name="Date">
+            <option value="Date">Date</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <select name="Level">
+            <option value="Level">Level</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <select name="Environment">
+            <option value="Environment">Environment</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+          <div class="all-button">
+        	<div class="search">
+        		<button type="button">
+                    Search Val 1
+                </button>
+                <button type="button">
+                    Search Val 2
+                </button>
+                <button type="button">
+                    Search Val 3
+                </button>
+                <button type="button">
+                    Search Val 3
+                </button>
+        	</div>
+        <div class="apply">
+          <button type="submit">
+          Apply
+          </button>
+          <button type="reset">
+          Clear
+          </button>
+        </div>
+        </div>
+        <div class="table">
+          <div class="button-format">
+            <button type="button">
+            CSV
+            </button>
+            <button type="button">
+            Excel
+            </button>
+            <button type="button">
+            PDF
+            </button>
+          </div>
+          <table class="zui-table">
+            <thead>
+              <tr>
+                <th>Region</th>
+                <th>Country</th>
+                <th>Dealer</th>
+                <th>Device<br>Type</th>
+                <th>Version</th>
+                <th>Third<br>Party</th>
+                <th>Alert<br>Titel</th>
+                <th>Alert<br>Category</th>
+                <th>Severity</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Europe</td>
+                <td>Latvia</td>
+                <td>Momo</td>
+                <td>HTPro</td>
+                <td>1.98B</td>
+                <td>NO</td>
+                <td>Error</td>
+                <td>Error</td>
+                <td>&#8212;</td>
+                <td><img src="img/tick.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Africa</td>
+                <td>Republic Kongo</td>
+                <td>CowBoyz</td>
+                <td>HTPro</td>
+                <td>1.165</td>
+                <td>NO</td>
+                <td>Alert</td>
+                <td>Alerts</td>
+                <td>Yes</td>
+                <td><img src="img/tick.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Europe</td>
+                <td>Latvia</td>
+                <td>Momo</td>
+                <td>HTPro</td>
+                <td>1.98B</td>
+                <td>NO</td>
+                <td>Error</td>
+                <td>Error</td>
+                <td>&#8212;</td>
+                <td><img src="img/tick.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Africa</td>
+                <td>Republic Kongo</td>
+                <td>CowBoyz</td>
+                <td>HTPro</td>
+                <td>1.165</td>
+                <td>NO</td>
+                <td>Alert</td>
+                <td>Alerts</td>
+                <td>Yes</td>
+                <td><img src="img/tick-1.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Europe</td>
+                <td>Latvia</td>
+                <td>Momo</td>
+                <td>HTPro</td>
+                <td>1.98B</td>
+                <td>NO</td>
+                <td>Error</td>
+                <td>Error</td>
+                <td>&#8212;</td>
+                <td><img src="img/tick.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Africa</td>
+                <td>Republic Kongo</td>
+                <td>CowBoyz</td>
+                <td>HTPro</td>
+                <td>1.165</td>
+                <td>NO</td>
+                <td>Alert</td>
+                <td>Alerts</td>
+                <td>Yes</td>
+                <td><img src="img/tick.svg" alt="/"></td>
+              </tr>
+              <tr>
+                <td>Europe</td>
+                <td>Latvia</td>
+                <td>Momo</td>
+                <td>HTPro</td>
+                <td>1.98B</td>
+                <td>NO</td>
+                <td>Error</td>
+                <td>Error</td>
+                <td>&#8212;</td>
+                <td><img src="img/tick.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Africa</td>
+                <td>Republic Kongo</td>
+                <td>CowBoyz</td>
+                <td>HTPro</td>
+                <td>1.165</td>
+                <td>NO</td>
+                <td>Alert</td>
+                <td>Alerts</td>
+                <td>Yes</td>
+                <td><img src="img/tick-1.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Europe</td>
+                <td>Latvia</td>
+                <td>Momo</td>
+                <td>HTPro</td>
+                <td>1.98B</td>
+                <td>NO</td>
+                <td>Error</td>
+                <td>Error</td>
+                <td>&#8212;</td>
+                <td><img src="img/tick.svg" alt="img"></td>
+              </tr>
+              <tr>
+                <td>Africa</td>
+                <td>Republic Kongo</td>
+                <td>CowBoyz</td>
+                <td>HTPro</td>
+                <td>1.165</td>
+                <td>NO</td>
+                <td>Alert</td>
+                <td>Alerts</td>
+                <td>Yes</td>
+                <td><img src="img/tick-1.svg" alt="img"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="footer">
+          <span>Showing 1 to 10 of 57 entries</span>
+          <ul class="pages">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+    	<form method="get" action="https://echo.htmlacademy.ru">
+      <fieldset class="filter-item">
+        <legend>Step Wizard:</legend>
+        <div class="range-filter">
+          <div class="price-controls">
+           <h3>
+             <span class="steps">1.Step</span><br>
+             Enter Your 
+             <span>Info</span>
+           </h3>
+           <h3>
+             <span class="steps">2.Step</span><br>
+             Upload Your 
+             <span>File</span>
+           </h3>
+           <h3>
+             <span class="steps">3.Step</span><br>
+             <span>Review</span>
+           </h3>
+          </div>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="toggle toggle-min"></div>
+            <div class="toggle toggle-max"></div>
+            <div class="toggle toggle-max-min"></div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    </footer>
+  </body>
+</html>
